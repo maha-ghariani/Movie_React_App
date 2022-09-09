@@ -5,6 +5,7 @@ export const movies = [{
     description:
       'Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.',
     rate: 2,
+    video:"https://www.youtube.com/embed/k10ETZ41q5o"
   },
   {
     id: '2',
@@ -13,6 +14,7 @@ export const movies = [{
       'https://aws-cf.imdoc.fr/prod/photos/8/6/1/11904861/29176577/big-29176577abb.jpg?v=2',
       description: 'The Ring is a 2002 American supernatural horror film',
     rate: 3,
+    video: "https://www.youtube.com/embed/O2NKzO-fxwQ"
   },
   {
     id: '3',
@@ -20,6 +22,7 @@ export const movies = [{
     poster: 'https://m.media-amazon.com/images/I/41CGtdWTDvL._AC_.jpg',
     description: 'The Ring is a 2002 American supernatural horror film',
     rate: 1,
+    video: "https://www.youtube.com/embed/yybjV3U68wc"
   },
   {
     id: '4',
@@ -27,6 +30,7 @@ export const movies = [{
     poster: 'https://m.media-amazon.com/images/I/51NiGlapXlL._AC_.jpg',
     description: 'The Ring is a 2002 American supernatural horror film',
     rate: 3,
+    video:"https://www.youtube.com/embed/P9mwtI82k6E"
   },
   {
     id: '5',
@@ -35,6 +39,7 @@ export const movies = [{
       'https://ih1.redbubble.net/image.1275475865.6561/pp,504x498-pad,600x600,f8f8f8.jpg',
       description: 'The Ring is a 2002 American supernatural horror film',
     rate: 3,
+    video:"https://www.youtube.com/embed/UaVTIH8mujA"
   },
   {
     id: '6',
@@ -43,6 +48,7 @@ export const movies = [{
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0hYUlSTUgCxfY-8ACz_E3CQWDKShEYEvGFw&usqp=CAU',
       description: 'The Ring is a 2002 American supernatural horror film',
     rate: 3,
+    video:"https://www.youtube.com/embed/9O1Iy9od7-A"
   },
   {
     id: '7',
@@ -50,6 +56,7 @@ export const movies = [{
     poster: 'https://m.media-amazon.com/images/I/51CbCQNMyiL._AC_.jpg',
     description: 'The Ring is a 2002 American supernatural horror film',
     rate: 2,
+    video:"https://www.youtube.com/embed/EXeTwQWrcwY" 
   },
   {
     id: '8',
@@ -57,4 +64,5 @@ export const movies = [{
     poster: 'https://m.media-amazon.com/images/I/81zZhjymV7L._AC_SL1500_.jpg',
     description: 'The Ring is a 2002 American supernatural horror film',
     rate: 4,
+    video:"https://www.youtube.com/embed/_13J_9B5jEk" 
   }]

@@ -1,13 +1,18 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ReactStars from "react-rating-stars-component";
-
+import { useNavigate } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 function CardComponent({movie}) {
+  const navigate = useNavigate();
+  const handleNavigate = () => { 
+        navigate(`/Details/${movie.id}`);
+
+  };
   return (
     
     <Card style={{ width: '18rem',marginTop:40 }}>
-      <Card.Img variant="top" src={movie.poster}  alt={`${movie.title}`} />
+      <Card.Img variant="top" src={movie.poster}  alt={`${movie.title}`}  />
       <Card.Body>
         <Card.Title>{movie.title}</Card.Title>
         <Card.Text>
@@ -21,6 +26,9 @@ function CardComponent({movie}) {
     value={movie.rate}
     edit={false}
   />
+  <Button onClick={handleNavigate} variant="primary">
+          Details
+        </Button>
       </Card.Body>
     </Card>
   )
